@@ -1,0 +1,17 @@
+html,
+body {
+    background-color: rgb(196, 164, 226);
+}
+
+h1{
+    text-align: center;
+}
+
+.letter {
+    float: left;
+    margin: 5%;
+    background-color: aquamarine;
+    border-radius: 25%;
+    font-size: 50px;
+    padding: 10px;
+}

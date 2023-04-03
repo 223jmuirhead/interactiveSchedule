@@ -1,0 +1,15 @@
+[
+    {
+        "class_name": "AP Computer Science",
+        "teacher_name": "Hoagland",
+        "room_number": "B108",
+        "days":["A", "B", "C", "E", "F"]
+    },
+    {
+        "class_name": "AP Coooomputer Science",
+        "teacher_name": "Hoagland",
+        "room_number": "B108",
+        "days":["A", "B", "C", "E", "F"]
+    }
+]
+
