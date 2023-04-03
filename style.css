@@ -9,9 +9,32 @@ h1{
 
 .letter {
     float: left;
-    margin: 5%;
+    margin: 3%;
     background-color: aquamarine;
     border-radius: 25%;
     font-size: 50px;
-    padding: 10px;
+    padding: 2%;
+    font-family: 'Space Mono', monospace;
+    transition: all 1s ease;
+}
+
+.letter:hover {
+    background-color: rgb(127, 172, 255);
+}
+
+.letters {
+    float: left;
+    margin: 3%;
+    background-color: aquamarine;
+    border-radius: 25%;
+
+}
+
+.goop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sched{
+    width:100%;
 }
