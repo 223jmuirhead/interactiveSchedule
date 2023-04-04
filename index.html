@@ -15,20 +15,30 @@
 </head>
 <body>
     <div id="vue_app">
+        <div class="row">
+            <div class="col-3">
         
-        <h1>{{test}}</h1>
+            </div>
+            <div class="col-6">
+                <h1>{{test}}</h1>
+            </div>
+            <div class="col-3">
+
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-3">
         
             </div>
             <div class="col-6 goop">
-                <p class="letter">A</p>
-                <p class="letter">B</p>
-                <p class="letter">C</p>
-                <p class="letter">D</p>
-                <p class="letter">E</p>
-                <p class="letter">F</p>
-                <p class="letter">G</p>
+                <p class="letter" @click="toggleA">A</p>
+                <p class="letter" @click="toggleB">B</p>
+                <p class="letter" @click="toggleC">C</p>
+                <p class="letter" @click="toggleD">D</p>
+                <p class="letter" @click="toggleE">E</p>
+                <p class="letter" @click="toggleF">F</p>
+                <p class="letter" @click="toggleG">G</p>
             </div>
             <div class="col-3">
 
@@ -40,6 +50,7 @@
 
             </div>
             <div class="col-6">
+                
                 <table class="sched">
                     <tr>
                         <th>
@@ -55,21 +66,23 @@
                             Days
                         </th>
                     </tr>
+
                     <tr v-for="(schedule, index) in schedules">
-                        <td>
+                        <td v-if="schedules[index].isActive">
                             {{schedules[index].class_name}}
                         </td>
-                        <td>
+                        <td v-if="schedules[index].isActive">
                             {{schedules[index].teacher_name}}
                         </td>
-                        <td>
+                        <td v-if="schedules[index].isActive">
                             {{schedules[index].room_number}}
                         </td>
-                        <td>
+                        <td v-if="schedules[index].isActive"> 
                             {{schedules[index].days}}
                         </td>
                     </tr>
                 </table>
+                
             </div>
             <div class="col-3">
 

@@ -5,6 +5,7 @@ body {
 
 h1{
     text-align: center;
+    
 }
 
 .letter {
@@ -15,7 +16,7 @@ h1{
     font-size: 50px;
     padding: 2%;
     font-family: 'Space Mono', monospace;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .letter:hover {
@@ -37,4 +38,14 @@ h1{
 
 .sched{
     width:100%;
+    border: 3px solid;
+}
+
+th{
+    border: 2px solid;
+}
+
+td{
+    border: 2px double;
+
 }

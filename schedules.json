@@ -3,43 +3,50 @@
         "class_name": "AP Computer Science",
         "teacher_name": "Hoagland",
         "room_number": "B108",
-        "days":["A", "B", "C", "E", "F"]
+        "days":["A", "B", "C", "E", "F"],
+        "isActive": true
     },
     {
         "class_name": "Financial Literacy",
         "teacher_name": "Burstein",
         "room_number": "D107",
-        "days":["A", "B", "D", "E", "F"]
+        "days":["A", "B", "D", "E", "F"],
+        "isActive": true
     },
     {
         "class_name": "Web Design",
         "teacher_name": "Herbert",
         "room_number": "B114",
-        "days":["A", "C", "D", "E", "G"]
+        "days":["A", "C", "D", "E", "G"],
+        "isActive": true
     },
     {
         "class_name": "Automotive",
         "teacher_name": "Heubel",
         "room_number": "B116",
-        "days":["B", "C", "D", "F", "G"]
+        "days":["B", "C", "D", "F", "G"],
+        "isActive": true
     },
     {
         "class_name": "AP Lang",
         "teacher_name": "LaPlaga",
         "room_number": "C106",
-        "days":["A", "B", "D", "E", "G"]
+        "days":["A", "B", "D", "E", "G"],
+        "isActive": true
     },
     {
         "class_name": "Gym",
         "teacher_name": "Hastings",
         "room_number": "GYM",
-        "days":["A", "C", "D", "G"]
+        "days":["A", "C", "D", "G"],
+        "isActive": true
     },
     {
         "class_name": "AP Physics 2",
         "teacher_name": "Reardon",
         "room_number": "G202",
-        "days":["B", "C", "E", "F", "G"]
+        "days":["B", "C", "E", "F", "G"],
+        "isActive": true
     }
 ]
 
