@@ -66,19 +66,506 @@
                             Days
                         </th>
                     </tr>
+                    <tr v-if="schedules[0].isActive">
+                        <td>
+                            {{schedules[0].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[0].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[0].isActive">
+                        <td>
+                            {{schedules[1].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[1].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[0].isActive">
+                        <td>
+                            {{schedules[2].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[2].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[0].isActive">
+                        <td>
+                            {{schedules[4].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[4].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[0].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
+                        </td>
+                    </tr>
 
-                    <tr v-for="(schedule, index) in schedules">
-                        <td v-if="schedules[index].isActive">
-                            {{schedules[index].class_name}}
+
+                    <tr v-if="schedules[1].isActive">
+                        <td>
+                            {{schedules[3].class_name}}
                         </td>
-                        <td v-if="schedules[index].isActive">
-                            {{schedules[index].teacher_name}}
+                        <td>
+                            {{schedules[3].teacher_name}}
                         </td>
-                        <td v-if="schedules[index].isActive">
-                            {{schedules[index].room_number}}
+                        <td>
+                            {{schedules[3].room_number}}
                         </td>
-                        <td v-if="schedules[index].isActive"> 
-                            {{schedules[index].days}}
+                        <td> 
+                            {{schedules[3].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[1].isActive">
+                        <td>
+                            {{schedules[0].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[0].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[1].isActive">
+                        <td>
+                            {{schedules[1].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[1].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[1].isActive">
+                        <td>
+                            {{schedules[6].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[6].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[1].isActive">
+                        <td>
+                            {{schedules[4].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[4].days}}
+                        </td>
+                    </tr>
+
+
+                    <tr v-if="schedules[2].isActive">
+                        <td>
+                            {{schedules[2].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[2].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[2].isActive">
+                        <td>
+                            {{schedules[3].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[3].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[2].isActive">
+                        <td>
+                            {{schedules[0].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[0].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[2].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[2].isActive">
+                        <td>
+                            {{schedules[6].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[6].days}}
+                        </td>
+                    </tr>
+
+
+                    <tr v-if="schedules[3].isActive">
+                        <td>
+                            {{schedules[1].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[1].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[3].isActive">
+                        <td>
+                            {{schedules[2].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[2].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[3].isActive">
+                        <td>
+                            {{schedules[3].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[3].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[3].isActive">
+                        <td>
+                            {{schedules[4].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[4].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[3].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
+                        </td>
+                    </tr>
+
+
+                    <tr v-if="schedules[4].isActive">
+                        <td>
+                            {{schedules[0].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[0].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[4].isActive">
+                        <td>
+                            {{schedules[1].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[1].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[4].isActive">
+                        <td>
+                            {{schedules[2].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[2].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[4].isActive">
+                        <td>
+                            {{schedules[6].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[6].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[4].isActive">
+                        <td>
+                            {{schedules[4].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[4].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[4].days}}
+                        </td>
+                    </tr>
+
+
+                    <tr v-if="schedules[5].isActive">
+                        <td>
+                            {{schedules[3].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[3].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[5].isActive">
+                        <td>
+                            {{schedules[0].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[0].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[0].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[5].isActive">
+                        <td>
+                            {{schedules[1].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[1].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[1].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[5].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[5].isActive">
+                        <td>
+                            {{schedules[6].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[6].days}}
+                        </td>
+                    </tr>
+
+
+                    <tr v-if="schedules[6].isActive">
+                        <td>
+                            {{schedules[2].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[2].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[2].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[6].isActive">
+                        <td>
+                            {{schedules[3].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[3].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[3].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[6].isActive">
+                        <td>
+                            {{schedules[6].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[6].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[6].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[6].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
+                        </td>
+                    </tr>
+                    <tr v-if="schedules[6].isActive">
+                        <td>
+                            {{schedules[5].class_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].teacher_name}}
+                        </td>
+                        <td>
+                            {{schedules[5].room_number}}
+                        </td>
+                        <td> 
+                            {{schedules[5].days}}
                         </td>
                     </tr>
                 </table>
